@@ -1,4 +1,11 @@
 .board {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.tableBoard {
   border-collapse: collapse;
   border-style: hidden;
 }
@@ -11,4 +18,28 @@
 .rowHead {
   border-collapse: collapse;
   border: 1px solid #ffffff;
+}
+
+.score {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 2em;
+}
+
+.player {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.playerName {
+  margin: 1em;
+  font-size: 1.75em;
+}
+
+.playerScore {
+  margin: 0.5em;
+  font-size: 1.75em;
 }
