@@ -1,0 +1,14 @@
+.board {
+  border-collapse: collapse;
+  border-style: hidden;
+}
+
+.cell {
+  border-collapse: collapse;
+  border: 1px solid #ffffff;
+}
+
+.rowHead {
+  border-collapse: collapse;
+  border: 1px solid #ffffff;
+}
